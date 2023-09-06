@@ -1,34 +1,14 @@
-n = (int(input("enter a decimal number:")))
-binary = []
-if(n==0)
-    binary.append()
+def decimal_binary(num):
+    decimal_num = int(str(num),2)
+    return decimal_num
+print(decimal_binary(1001))
+print(decimal_binary(10010101))
 
-for n>0 in binary
-    r=n%2
-    binary.apprnd(r)
-    n=n//2
-# Get the decimal number from the user
-n = int(input("Enter a decimal number: "))
 
-# Initialize an empty list to store binary digits
-binary = []
 
-# Handle the case where n is 0 separately
-if n == 0:
-    binary.append(0)
+#
+n= int(str(10011),2)
+print(n)
 
-# Convert decimal to binary
-while n > 0:
-    remainder = n % 2
-    binary.append(remainder)
-    n = n // 2
-
-# Reverse the list to get the binary representation in the correct order
-binary.reverse()
-
-# Print the binary number
-print("Binary number is:", end=" ")
-for digit in binary:
-    print(digit, end="")
-
-print()  # Print a newline for better
+#test cases
+#

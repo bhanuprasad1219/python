@@ -1,1 +1,1 @@
-fruits = ('apple', 'banana')
+uits = ('apple', 'banana')

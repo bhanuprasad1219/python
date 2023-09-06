@@ -1,10 +1,17 @@
-def prime(n)
-    return all([n%j] for j in range(2, n**0.5 +1), n>1)
+def is_prime_basic(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+num = 987
+b= is_prime_basic(num)
+print(b)
 
-n = 3
-if n is prime number
-    print("yes")
-else
-    print("no")
+# nth prime numbers
+
+
+
 
 
