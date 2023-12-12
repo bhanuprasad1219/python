@@ -1,4 +1,4 @@
-count = 0
+"""count = 0
 list1 = [11, 5, 75, 87, 3]
 for i in range(len(list1)):
     for j in range(i+1, len(list1)):
@@ -9,8 +9,7 @@ for i in range(len(list1)):
         print(list1)
 
 print(list1)
-print(count)
-
+print(count)"""
 
 
 
